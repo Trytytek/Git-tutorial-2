@@ -1,0 +1,29 @@
+section {
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 80%;
+}
+/*jak ustawić tekst w flexie równo na środku?*/
+.container {
+    border: 1px solid black;
+    max-width: 450px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+}
+/*jak ustawić tekst w flexie równo na środku?*/
+.header h3 {
+    font-family: libre baskerville;
+    font-style: italic;
+}
+.header h1{
+    font-family: 'ranchers';
+}
+
+.verse{
+    font-family: libre baskerville;
+    margin-top: 20px;
+    display:flex
+    justify-content: flex-start;;
+}
